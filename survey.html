@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey</title>
+</head>
+<body>
+
+<p>Please fill out this survey and press Submit:</p>
+
+<form name="Puppies" action="thanks.html" method="post">
+  <fieldset>
+    <div>
+      <label>Full name:</label>
+      <input type="text" name="fullname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>    
+      <label>Birth Date:</label>
+      <input type="date" name="date">
+    </div>
+
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Favorite puppy breed:</label>
+      <input type="text" name="puppy-breed" placeholder="Puppy breed">
+    </div>
+
+    <div>
+      <label>How many puppies do you have?</label>
+      <select name="how-many-puppies">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3ormore">3 or more</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+      I love puppies!!!!
+    </div>
+  </fieldset>
+  
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
