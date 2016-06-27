@@ -4,30 +4,30 @@
   <title>Survey</title>
 </head>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
+<nav> <!-- Added a nav bar -->
+  <a href="index.html">Home</a> <!-- Link to home page -->
+  <a href="about.html">About</a> <!-- Link to about page -->
 </nav>
 
 <body>
 
-<p>Please fill out this survey and press Submit:</p>
+<p>Please fill out this survey and press Submit:</p> <!-- Asked user to fill out survey with a paragraph -->
 
-<form name="Puppies" action="thanks.html" method="post">
-  <fieldset>
-    <div>
-      <label>Full name:</label>
-      <input type="text" name="fullname">
+<form name="Puppies" action="thanks.html" method="post"> <!-- Added a form. Form name is 'Puppies', and when you press submit, it brings you to the thanks page -->
+  <fieldset> <!-- Added a fieldset, to group related elements -->
+    <div> <!-- Section seperator in my form -->
+      <label>Full name:</label> <!-- Used label tag to prompt user to put in their full name -->
+      <input type="text" name="fullname"> <!-- Set the type to text so the computer knows what kind of input its receiving, set the name of the input to fullname for indication purposes -->
     </div>
 
     <div>
       <label>Email:</label>
-      <input type="email" name="email">
+      <input type="email" name="email"> <!-- Set type to email -->
     </div>
 
     <div>    
       <label>Birth Date:</label>
-      <input type="date" name="date">
+      <input type="date" name="date"> <!-- Set type to date which will prompt the user to choose a date -->
     </div>
 
   </fieldset>
@@ -35,13 +35,13 @@
   <fieldset>
     <div>
       <label>Favorite puppy breed:</label>
-      <input type="text" name="puppy-breed" placeholder="Puppy breed">
+      <input type="text" name="puppy-breed" placeholder="Puppy breed"> <!-- Placeholder will show up in input box, another indication for what user is supposed to enter  -->
     </div>
 
     <div>
       <label>How many puppies do you have?</label>
-      <select name="how-many-puppies">
-        <option value="0">0</option>
+      <select name="how-many-puppies"> <!-- Select will give the user the option to choose from a dropdown menu -->
+        <option value="0">0</option> <!-- Listed the three options -->
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3ormore">3 or more</option>
@@ -49,12 +49,12 @@
     </div>
 
     <div>
-      <input type="checkbox" name="cb-agree" value="agree">
+      <input type="checkbox" name="cb-agree" value="agree"> <!-- Created a checkbox for the user to check. Set value to agree if user checks box -->
       I love puppies!!!!
     </div>
   </fieldset>
   
-  <button type="submit">Submit</button>
+  <button type="submit">Submit</button> <!-- Created a button on the bottom for user to submit form -->
 </form>
 
 </body>
