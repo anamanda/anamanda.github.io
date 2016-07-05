@@ -1,3 +1,26 @@
 body {
   background-color: grey;
+} /*Created style for body*/
+
+nav {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #99c2ff;
+  padding: 5px;
+  text-align: center;
+  font-family: Courier;
+}
+
+ul {
+  margin: 10px;
+  background-image: url(bg-pattern.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  font-family: Courier;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-family: Courier;
 }
