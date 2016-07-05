@@ -24,3 +24,11 @@ ul {
 p {
   font-family: Courier;
 }
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: white;
+}
