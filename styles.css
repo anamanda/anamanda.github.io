@@ -1,3 +1,151 @@
 body {
   background-color: grey;
 }
+/*Added parameters for the body tag*/
+
+nav {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #00004d;
+  padding: 5px;
+  text-align: center;
+  font-family: Courier;
+}
+/*Added parameters for the nav tag. Created border, styled font, and text alignment*/
+
+ul {
+  margin: 10px;
+  background-image: url(bg-pattern.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Courier;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 50%;
+}
+/*Added parameters for the ul tag. Added margin, padding, width,
+background image and styling, styled font*/
+
+p {
+  font-family: Courier;
+  color: #00004d;
+}
+/*Added parameters for the p tag. Styled font and color*/
+
+h1 {
+  font-family: Courier;
+  color: #00004d;
+}
+/*Added parameters for the h1 tag. Styled font and color*/
+
+a {
+  font-family: Courier;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Added parameters for the a tag*/
+
+form {
+  font-family: Courier;
+  color: #00004d;
+  display: inline-block;
+  margin-left: 32%;
+  margin-right: 32%;
+  width: 35%;
+}
+/*Added parameters for the form tag. Styled font, color, alignment, and width*/
+
+fieldset {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  margin: 5px;
+}
+/*Added parameters for the fieldset tag. Created border, added margin*/
+
+a:link {
+  color: blue;
+}
+/*Made unvisited links in their natural state blue*/
+
+a:visited {
+  color: white;
+}
+/*Made visited links white*/
+
+.underline {
+  text-decoration: underline;
+}
+/*Created a class that underlines text when used*/
+
+.center-align {
+  text-align: center;
+}
+/*Created a class that center-aligns text when used*/
+
+.shadow-text {
+  text-shadow: 2px 2px #ffffff;
+}
+/*Created a class that give text a text-shadow when used*/
+
+img.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Created a class that centers an image when used*/
+
+#body-links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Created an ID that centers a link*/
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+/*Created a media query that changes the h1 tag to a smaller size when viewed in a smaller window*/
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+}
+/*Created a media query that changes the p tag to a smaller size when viewed in a smaller window*/
+
+@media screen and (max-width: 500px) {
+  form {
+    font-size: 12px;
+  }
+}
+/*Created a media query that changes the form tag to a smaller size when viewed in a smaller window*/
+
+@media screen and (max-width: 800px) {
+  ul {
+    background-size: 600px 600px;
+  }
+}
+/*Created a media query that changes the ul background-size to a smaller size when viewed in a smaller window*/
+
+@media screen and (max-width: 500px) {
+  ul {
+    font-size: 12px;
+    max-height: 320px;
+    background-size: 460px 460px;
+  }
+}
+/*Created a media query that changes the ul font-size and background-size to a smaller size when viewed in a smaller window*/
+
+@media screen and (max-width: 500px) {
+  a {
+    font-size: 12px;
+  }
+}
+/*Created a media query that changes the a tag to a smaller size when viewed in a smaller window*/
+
+
