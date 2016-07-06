@@ -5,7 +5,7 @@ body {
 nav {
   border-width: 2px;
   border-style: solid;
-  border-color: #99c2ff;
+  border-color: #00004d;
   padding: 5px;
   text-align: center;
   font-family: Courier;
@@ -23,10 +23,12 @@ ul {
 
 p {
   font-family: Courier;
+  color: #00004d;
 }
 
 h1 {
   font-family: Courier;
+  color: #00004d;
 }
 
 a {
@@ -56,14 +58,30 @@ a:visited {
   text-shadow: 2px 2px #ffffff;
 }
 
-img.centerplz {
+img.center-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #body-links {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  font-family: Courier;
+  color: #00004d;
+  display: inline-block;
+  margin-left: 32%;
+  margin-right: 32%;
+  width: 35%;
+}
+
+fieldset {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  margin: 5px;
 }
