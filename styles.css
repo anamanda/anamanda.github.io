@@ -17,8 +17,10 @@ ul {
   background-size: 100%;
   background-repeat: no-repeat;
   font-family: Courier;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 50%;
 }
 
 p {
@@ -104,9 +106,17 @@ fieldset {
   }
 }
 
+@media screen and (max-width: 800px) {
+  ul {
+    background-size: 600px 600px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   ul {
     font-size: 12px;
+    max-height: 320px;
+    background-size: 460px 460px;
   }
 }
 
