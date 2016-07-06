@@ -14,7 +14,7 @@ nav {
 ul {
   margin: 10px;
   background-image: url(bg-pattern.png);
-  background-size: 55%;
+  background-size: 100%;
   background-repeat: no-repeat;
   font-family: Courier;
   padding-top: 5px;
@@ -84,4 +84,34 @@ fieldset {
   border-color: white;
   border-style: solid;
   margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ul {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  a {
+    font-size: 12px;
+  }
 }
