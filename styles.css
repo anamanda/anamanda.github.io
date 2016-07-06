@@ -25,10 +25,45 @@ p {
   font-family: Courier;
 }
 
+h1 {
+  font-family: Courier;
+}
+
+a {
+  font-family: Courier;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a:link {
   color: blue;
 }
 
 a:visited {
   color: white;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px #ffffff;
+}
+
+img.centerplz {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#body-links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
