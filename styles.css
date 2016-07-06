@@ -1,7 +1,7 @@
 body {
   background-color: grey;
 }
-/*Added parameters for the body element*/
+/*Added parameters for the body tag*/
 
 nav {
   border-width: 2px;
@@ -11,7 +11,7 @@ nav {
   text-align: center;
   font-family: Courier;
 }
-/*Added parameters for the nav element. Created border, styled font, and text alignment*/
+/*Added parameters for the nav tag. Created border, styled font, and text alignment*/
 
 ul {
   margin: 10px;
@@ -24,20 +24,20 @@ ul {
   padding-right: 10px;
   width: 50%;
 }
-/*Added parameters for the ul element. Added margin, padding, width,
+/*Added parameters for the ul tag. Added margin, padding, width,
 background image and styling, styled font*/
 
 p {
   font-family: Courier;
   color: #00004d;
 }
-/*Added parameters for the p element. Styled font and color*/
+/*Added parameters for the p tag. Styled font and color*/
 
 h1 {
   font-family: Courier;
   color: #00004d;
 }
-/*Added parameters for the h1 element. Styled font and color*/
+/*Added parameters for the h1 tag. Styled font and color*/
 
 a {
   font-family: Courier;
@@ -45,7 +45,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/*Added parameters for the a element*/
+/*Added parameters for the a tag*/
 
 form {
   font-family: Courier;
@@ -55,7 +55,7 @@ form {
   margin-right: 32%;
   width: 35%;
 }
-/*Added parameters for the form element. Styled font, color, alignment, and width*/
+/*Added parameters for the form tag. Styled font, color, alignment, and width*/
 
 fieldset {
   border-width: 2px;
@@ -63,7 +63,7 @@ fieldset {
   border-style: solid;
   margin: 5px;
 }
-/*Added parameters for the fieldset element. Created border, added margin*/
+/*Added parameters for the fieldset tag. Created border, added margin*/
 
 a:link {
   color: blue;
@@ -109,21 +109,21 @@ img.center-image {
     font-size: 16px;
   }
 }
-/*Created a media query that changes the h1 selector to a smaller size when viewed in a smaller window*/
+/*Created a media query that changes the h1 tag to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   p {
     font-size: 12px;
   }
 }
-/*Created a media query that changes the p selector to a smaller size when viewed in a smaller window*/
+/*Created a media query that changes the p tag to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   form {
     font-size: 12px;
   }
 }
-/*Created a media query that changes the form selector to a smaller size when viewed in a smaller window*/
+/*Created a media query that changes the form tag to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 800px) {
   ul {
@@ -146,6 +146,6 @@ img.center-image {
     font-size: 12px;
   }
 }
-/*Created a media query that changes the a parameter to a smaller size when viewed in a smaller window*/
+/*Created a media query that changes the a tag to a smaller size when viewed in a smaller window*/
 
 
