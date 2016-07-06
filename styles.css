@@ -1,6 +1,7 @@
 body {
   background-color: grey;
-} /*Created style for body*/
+}
+/*Added parameters for the body element*/
 
 nav {
   border-width: 2px;
@@ -10,6 +11,7 @@ nav {
   text-align: center;
   font-family: Courier;
 }
+/*Added parameters for the nav element. Created border, styled font, and text alignment*/
 
 ul {
   margin: 10px;
@@ -22,16 +24,20 @@ ul {
   padding-right: 10px;
   width: 50%;
 }
+/*Added parameters for the ul element. Added margin, padding, width,
+background image and styling, styled font*/
 
 p {
   font-family: Courier;
   color: #00004d;
 }
+/*Added parameters for the p element. Styled font and color*/
 
 h1 {
   font-family: Courier;
   color: #00004d;
 }
+/*Added parameters for the h1 element. Styled font and color*/
 
 a {
   font-family: Courier;
@@ -39,38 +45,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
-a:link {
-  color: blue;
-}
-
-a:visited {
-  color: white;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.center-align {
-  text-align: center;
-}
-
-.shadow-text {
-  text-shadow: 2px 2px #ffffff;
-}
-
-img.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#body-links {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/*Added parameters for the a element*/
 
 form {
   font-family: Courier;
@@ -80,6 +55,7 @@ form {
   margin-right: 32%;
   width: 35%;
 }
+/*Added parameters for the form element. Styled font, color, alignment, and width*/
 
 fieldset {
   border-width: 2px;
@@ -87,30 +63,74 @@ fieldset {
   border-style: solid;
   margin: 5px;
 }
+/*Added parameters for the fieldset element. Created border, added margin*/
+
+a:link {
+  color: blue;
+}
+/*Made unvisited links in their natural state blue*/
+
+a:visited {
+  color: white;
+}
+/*Made visited links white*/
+
+.underline {
+  text-decoration: underline;
+}
+/*Created a class that underlines text when used*/
+
+.center-align {
+  text-align: center;
+}
+/*Created a class that center-aligns text when used*/
+
+.shadow-text {
+  text-shadow: 2px 2px #ffffff;
+}
+/*Created a class that give text a text-shadow when used*/
+
+img.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Created a class that centers an image when used*/
+
+#body-links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Created an ID that centers a link*/
 
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 16px;
   }
 }
+/*Created a media query that changes the h1 selector to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   p {
     font-size: 12px;
   }
 }
+/*Created a media query that changes the p selector to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   form {
     font-size: 12px;
   }
 }
+/*Created a media query that changes the form selector to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 800px) {
   ul {
     background-size: 600px 600px;
   }
 }
+/*Created a media query that changes the ul background-size to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   ul {
@@ -119,9 +139,13 @@ fieldset {
     background-size: 460px 460px;
   }
 }
+/*Created a media query that changes the ul font-size and background-size to a smaller size when viewed in a smaller window*/
 
 @media screen and (max-width: 500px) {
   a {
     font-size: 12px;
   }
 }
+/*Created a media query that changes the a parameter to a smaller size when viewed in a smaller window*/
+
+
